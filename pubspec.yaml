@@ -58,6 +58,9 @@ dev_dependencies:
   integration_test:
     sdk: flutter
 
+lint_staged:
+  'lib/**.dart': dart format -l 120 && dart analyze --fatal-infos --fatal-warnings
+    dart fix --apply
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
