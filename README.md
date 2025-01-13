@@ -1,3 +1,4 @@
+[![Flutter CI](https://github.com/jonathan-gartland/mpn_lookup_flutter/actions/workflows/main.yml/badge.svg)](https://github.com/jonathan-gartland/mpn_lookup_flutter/actions/workflows/main.yml)  
 # mpn_lookup_flutter
 
 Learning flutter with the demo app
