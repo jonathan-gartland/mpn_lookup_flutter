@@ -6,8 +6,7 @@ void main() {
     testWidgets('Favorites operations test', (tester) async {
       await tester.pumpWidget(const MyApp());
 
-      expect(find.text('You have pushed the button this many times:'),
-          findsOneWidget);
+      expect(find.text('You have pushed the button this many times:'), findsOneWidget);
     });
   });
 }

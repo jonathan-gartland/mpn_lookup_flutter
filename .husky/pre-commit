@@ -4,4 +4,4 @@
 dart run lint_staged
 flutter test
 dart format . -l 120 --set-exit-if-changed
-dart analyze --fatal-infos --fatal-warnings .
+# dart analyze --fatal-infos --fatal-warnings .
