@@ -156,6 +156,7 @@ class QuantiTray2000PageState extends State<QuantiTray2000Page> {
       appBar: AppBar(
         centerTitle: true,
       ),
+      resizeToAvoidBottomInset: true,
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(20.0),

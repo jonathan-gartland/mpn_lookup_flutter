@@ -58,6 +58,7 @@ dev_dependencies:
   test: ^1.25.8
   integration_test:
     sdk: flutter
+  espresso: ^0.4.0+5
 
 lint_staged:
   'lib/**.dart': dart format -l 120 && dart analyze --fatal-infos --fatal-warnings
