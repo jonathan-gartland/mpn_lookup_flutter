@@ -15,6 +15,7 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MPNLApp());
     expect(find.byType(Scaffold), findsOneWidget);
+    expect(find.text('About'), findsOneWidget);
 
     // // Verify that our counter starts at 0.
     // expect(find.text('0'), findsOneWidget);
