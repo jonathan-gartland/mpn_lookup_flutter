@@ -59,6 +59,29 @@ class MPNLApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routerConfig: _router,
+      builder: (context, child) {
+        return Container(
+          color: Colors.grey[300], // Background color around the phone viewport
+          child: Center(
+            child: Container(
+              constraints: const BoxConstraints(
+                maxWidth: 428, // iPhone 14 Pro Max width
+              ),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.2),
+                    blurRadius: 20,
+                    spreadRadius: 5,
+                  ),
+                ],
+              ),
+              child: child,
+            ),
+          ),
+        );
+      },
     );
   }
 }
